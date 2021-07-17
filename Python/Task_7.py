@@ -9,5 +9,5 @@ def f(a,k):
         f(bin(int(int(a, base=2)**0.5))[2:], k+1)
     if a[1] == "1":
         f(a[1:], k+1)
-f("1"+123*"0", 0)
-print(len(array))
+f("1"+17*"0", 0)
+print(array, len(array))
